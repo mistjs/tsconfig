@@ -1,10 +1,7 @@
 {
+  "extends": "@mistjs/tsconfig",
   "compilerOptions": {
-    "module": "commonjs",
-    "target": "es5",
-    "sourceMap": true
-  },
-  "exclude": [
-    "node_modules"
-  ]
+    "types": ["node"],
+    "moduleResolution": "node"
+  }
 }
