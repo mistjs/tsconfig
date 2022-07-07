@@ -1,0 +1,15 @@
+{
+  "name": "@mistjs/tsconfig-node",
+  "version": "0.0.1",
+  "description": "",
+  "main": "tsconfig.json",
+  "dependencies": {
+    "@mistjs/tsconfig": "workspace:*"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT"
+}
