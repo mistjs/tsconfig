@@ -1,0 +1,27 @@
+lockfileVersion: 5.4
+
+importers:
+
+  .:
+    specifiers: {}
+
+  packages/basic:
+    specifiers: {}
+
+  packages/node:
+    specifiers:
+      '@mistjs/tsconfig': workspace:*
+    dependencies:
+      '@mistjs/tsconfig': link:../basic
+
+  packages/react:
+    specifiers:
+      '@mistjs/tsconfig': workspace:^
+    dependencies:
+      '@mistjs/tsconfig': link:../basic
+
+  packages/vue:
+    specifiers:
+      '@mistjs/tsconfig': workspace:^
+    dependencies:
+      '@mistjs/tsconfig': link:../basic
