@@ -1,6 +1,6 @@
 {
   "name": "@mistjs/tsconfig-vue",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "",
   "main": "tsconfig.json",
   "types": "index.d.ts",
