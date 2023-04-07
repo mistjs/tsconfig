@@ -1,7 +1,6 @@
 {
   "compilerOptions": {
     "module": "ESNext",
-    "moduleResolution": "Node",
     "resolveJsonModule": true,
     "useDefineForClassFields": true,
     // Required in Vue projects
