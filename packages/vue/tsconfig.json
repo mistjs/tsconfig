@@ -12,6 +12,6 @@
       "DOM",
       "DOM.Iterable",
       ],
-    "moduleResolution": "bundler"
+    "moduleResolution": "node16"
   }
 }
